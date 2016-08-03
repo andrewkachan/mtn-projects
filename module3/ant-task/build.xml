@@ -3,11 +3,8 @@
  <path id="libs">
     <fileset dir="lib" includes="*.jar"/>
   </path>
-
-  <property name="src" location="src"/>
-  <property name="build" location="build"/>
-  <property name="dist" location="dist"/>
-  <property name="test" location="test"/>
+ 
+<property file="config/project.properties"/>
   
   <target name="init" depends="clean" >
     <tstamp/>
