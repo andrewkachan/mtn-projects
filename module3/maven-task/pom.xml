@@ -24,7 +24,7 @@
                     <descriptor>assembly.xml</descriptor>
                 </descriptors>
 		<finalName>${project.artifactId}-${project.version}-${maven.build.timestamp}</finalName>
-            <outputDirectory>/bas/project/</outputDirectory>
+            <!-- <outputDirectory>/bas/project/</outputDirectory> -->
 	    </configuration>
             <executions>
                 <execution>
