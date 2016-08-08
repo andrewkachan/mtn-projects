@@ -34,7 +34,7 @@
                     </goals>
                 </execution>
             </executions>
-        </plugin>
+	   </plugin>
 </plugins>
 </build>
 <dependencies>
@@ -54,5 +54,10 @@
                         <version>4.4</version>
                         <scope>test</scope>
                 </dependency>
+		<dependency>	
+			<groupId>org.codehaus.sonar</groupId>	
+			<artifactId>sonar-maven-plugin</artifactId>	
+			<version>5.1</version>
+                  </dependency>
          </dependencies>
 </project>
