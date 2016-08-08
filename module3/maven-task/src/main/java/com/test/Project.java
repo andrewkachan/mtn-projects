@@ -1,5 +1,6 @@
 package com.test;
-
+//sonar test
+//sonar test
 //dependency on Apache commons-collections
 import org.apache.commons.collections.Predicate;
 
