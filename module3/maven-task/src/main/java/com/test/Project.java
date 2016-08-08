@@ -9,9 +9,10 @@ class Project {
   public static void test() {
     System.out.println("test");
   }
-  Hello World
+  
   public static void main(String[] args) {
     System.out.println("Hellow MTN");
-  }
+System.out.println("test");  
+}
 
 }
