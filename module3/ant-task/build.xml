@@ -17,7 +17,7 @@
 
   <target name="test" depends="compile">
     <javac srcdir="${test}" destdir="${build}" includeantruntime="false" classpathref="libs"  />
-    <junit printsummary="yes" haltonfailure="no">
+    <junit printsummary="yes" haltonfailure="yes">
                  <classpath path="${lib}"> 
                     <path refid="libs" />
                  </classpath> 
